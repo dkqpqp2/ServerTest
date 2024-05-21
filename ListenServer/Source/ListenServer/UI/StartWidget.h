@@ -16,22 +16,4 @@ class LISTENSERVER_API UStartWidget : public UUserWidget
 {
 	GENERATED_BODY()
 
-public:
-	virtual void NativeConstruct() override;
-
-protected:
-	TSubclassOf<UUserWidget> CreateViewWidgetClass;
-	UCreateViewWidget* CreateViewWidget;
-	TSubclassOf<UUserWidget> JoinViewWidgetClass;
-	UJoinViewWidget* JoinViewWidget;
-
-	UFUNCTION()
-	void ClickCreateBtn();
-
-	UFUNCTION()
-	void ClickJoinBtn();
-
-	UFUNCTION()
-	void ClickQuitBtn();
-
 };

@@ -3,3 +3,10 @@
 
 #include "JoinViewWidget.h"
 
+void UJoinViewWidget::JoinServerHandler()
+{
+}
+
+void UJoinViewWidget::CancelBtn()
+{
+}

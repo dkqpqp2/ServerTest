@@ -3,3 +3,10 @@
 
 #include "CreateViewWidget.h"
 
+void UCreateViewWidget::CreateServerHandler()
+{
+}
+
+void UCreateViewWidget::CancelBtn()
+{
+}
