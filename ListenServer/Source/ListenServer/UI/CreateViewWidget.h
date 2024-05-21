@@ -16,12 +16,15 @@ class LISTENSERVER_API UCreateViewWidget : public UUserWidget
 
 private:
 	UPROPERTY(Meta = (BindWidget))
-	TObjectPtr<class UButton> CreatedBtn;
+	TObjectPtr<class UButton> CreateBtn;
+
+	UPROPERTY(Meta = (BindWidget))
+	TObjectPtr<class UButton> CancelBtn;
 
 	UFUNCTION()
 	void CreateServerHandler();
 
 	UFUNCTION()
-	void CancelBtn();
+	void ClickedCancelBtn();
 
 };

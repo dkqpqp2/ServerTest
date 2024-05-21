@@ -18,9 +18,12 @@ private:
 	UPROPERTY(Meta = (BindWidget))
 	TObjectPtr<class UButton> JoinBtn;
 
+	UPROPERTY(Meta = (BindWidget))
+	TObjectPtr<class UButton> CancelBtn;
+
 	UFUNCTION()
 	void JoinServerHandler();
 
 	UFUNCTION()
-	void CancelBtn();
+	void ClickedCancelBtn();
 };

@@ -7,6 +7,6 @@ void UCreateViewWidget::CreateServerHandler()
 {
 }
 
-void UCreateViewWidget::CancelBtn()
+void UCreateViewWidget::ClickedCancelBtn()
 {
 }

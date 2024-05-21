@@ -16,6 +16,8 @@ ABasicGameMode::ABasicGameMode()
 void ABasicGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
+
 	if (IsValid(BasicStartWidgetClass))
 	{
 		StartWidget = Cast<UStartWidget>(CreateWidget(GetWorld(), BasicStartWidgetClass));

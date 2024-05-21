@@ -7,6 +7,6 @@ void UJoinViewWidget::JoinServerHandler()
 {
 }
 
-void UJoinViewWidget::CancelBtn()
+void UJoinViewWidget::ClickedCancelBtn()
 {
 }
